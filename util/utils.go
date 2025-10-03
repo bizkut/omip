@@ -518,6 +518,8 @@ func GetAppDataDir() (appData string) {
 		appData = os.Getenv("HOME")
 	case "windows":
 		appData = strings.Replace(os.Getenv("appdata"), "\\", "/", -1)
+	case "darwin":
+		appData = os.Getenv("HOME")
 	}
 	return appData
 }
