@@ -19,6 +19,8 @@ OMIP - An Eve Online Data Aggregator
 
 ## Getting Started
 
+For instructions on how to build the application on macOS, please refer to the [MACOS_BUILD.md](MACOS_BUILD.md) file.
+
 ![image](https://user-images.githubusercontent.com/20628481/190867641-e7166a31-fae0-461e-b4cf-9753ab165754.png)
 
 * to register an ESI key for a character or corporation select "Add Character" in the file menu <2>
